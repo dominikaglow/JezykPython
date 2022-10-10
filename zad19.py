@@ -8,5 +8,5 @@ for elements in L:
         txtNum = txtNum.zfill(3)
     text += txtNum
 
-print("Lista L: ", L)
+print("Lista L:", L)
 print("Zbudowany napis: " + text)
