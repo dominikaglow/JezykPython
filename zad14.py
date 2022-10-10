@@ -1,8 +1,8 @@
-line = "Python wspiera różne paradygmaty programowania mianowicie obiektowy " \
-       "imperatywny oraz w mniejszym stopniu funkcyjny"
+line = """Python wspiera różne paradygmaty programowania mianowicie obiektowy 
+imperatywny oraz w mniejszym stopniu funkcyjny"""
 
 listWords = line.split()
-print(listWords)
+print("Tekst: " + line + "\n ")
 
 maxLen = 0
 maxWord = ""
