@@ -1,0 +1,6 @@
+L = [3, 5, 4] ; L = L.sort()
+Podany kod nie jest poprawny składniowo, poniewaz został wykorzystany średnik.
+
+x, y = 1, 2, 3
+Nie można przypisywać wartości do dwóch zmiennych jednocześnie.
+
