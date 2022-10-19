@@ -1,0 +1,13 @@
+x = 2; y = 3;
+if (x > y):
+    result = x;
+else:
+    result = y;
+Podany kod nie jest poprawny składniowo, poniewaz nie korzysta sie z srednikow na koncu linii kodu.
+
+
+for i in "axby": if ord(i) < 100: print (i)
+Podany kod nie jest poprawny. Funkcja print() powinna znajdowac się przed warunkiem. Co więcej brakuje działania, gdy warunek nie zostanie spełniony.
+
+for i in "axby": print (ord(i) if ord(i) < 100 else i)
+Podany kod jest poprawny.
