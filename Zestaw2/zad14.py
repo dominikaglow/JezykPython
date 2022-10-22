@@ -1,5 +1,4 @@
-line = """Python wspiera różne paradygmaty programowania mianowicie obiektowy 
-imperatywny oraz w mniejszym stopniu funkcyjny"""
+line = "Python to jezyk programowania \nwysokiego poziomu     ogolnego \nprzeznaczenia"
 
 listWords = line.split()
 print("Tekst: " + line + "\n ")

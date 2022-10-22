@@ -1,5 +1,4 @@
-line = "Python to jezyk programowania wysokiego" \
-       " poziomu ogolnego przeznaczenia"
+line = "Python to jezyk programowania \nwysokiego poziomu     ogolnego \nprzeznaczenia"
 listLen = []
 myList = line.split()
 

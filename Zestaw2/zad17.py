@@ -1,7 +1,6 @@
 import numpy as np
 
-line = "Python to jezyk programowania wysokiego" \
-	       " poziomu ogolnego przeznaczenia"
+line = "Python to jezyk programowania \nwysokiego poziomu     ogolnego \nprzeznaczenia"
 listLen = []
 dict = {}
 

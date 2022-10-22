@@ -1,5 +1,4 @@
-line = "Python to jezyk programowania GvR wysokiego" \
-       " poziomu GvR ogolnego przeznaczenia"
+line = "Python to jezyk programowania  GvR\nwysokiego poziomu     ogolnego GvR \nprzeznaczenia"
 
 newLine = line.replace("GvR", "Guido van Rossum")
 

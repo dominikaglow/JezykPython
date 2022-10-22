@@ -1,9 +1,8 @@
-line = "Python to jezyk programowania wysokiego" \
-	      " poziomu ogolnego przeznaczenia"
+line = "Python to jezyk programowania wysokiego\n poziomu      ogolnego\nprzeznaczenia"
+print(line)
+
 myList = line.split()
 i = 0  # ilosc slow
-print(myList)
 for z in myList:
-       print(z.split())
        i = i + 1
-print(i)
+print("Ilosc wyrazow w zdaniu: ", i)
