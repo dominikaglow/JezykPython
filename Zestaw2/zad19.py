@@ -6,6 +6,7 @@ for elements in L:
     txtNum = str(elements)
     if(len(txtNum) < 3):
         txtNum = txtNum.zfill(3)
+    text += " "
     text += txtNum
 
 print("Lista L:", L)
