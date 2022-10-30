@@ -1,5 +1,5 @@
 L = [3, 5, 4] ; L = L.sort()
-Podany kod nie jest poprawny z powodu przypisania  L.sort() do L. Jeśli po takim przypisaniu chcielibyśmy wypisać elementy listy L, to lista byłaby nullem.
+Podany kod nie jest poprawny z powodu przypisania  L.sort() do L. Jeśli po takim przypisaniu chcielibyśmy wypisać elementy listy L, to lista byłaby obiektem pustym.
 
 x, y = 1, 2, 3
 Żeby przypisać 3 wartości jednocześnie potrzebujemy 3 zmiennych. W tym wypadku brakuje jednej zmiennej, do której 
