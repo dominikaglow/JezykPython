@@ -1,6 +1,18 @@
 L = [3, 5, 4] ; L = L.sort()
-Podany kod nie jest poprawny składniowo, poniewaz został wykorzystany średnik.
+Podany kod nie jest poprawny z powodu przypisania  L.sort() do L. Jeśli po takim przypisaniu chcielibyśmy wypisać elementy listy L, to lista byłaby nullem.
 
 x, y = 1, 2, 3
-Nie można przypisywać wartości do dwóch zmiennych jednocześnie.
+Żeby przypisać 3 wartości jednocześnie potrzebujemy 3 zmiennych. W tym wypadku brakuje jednej zmiennej, do której 
+mogłaby zostać przypisana wartość "3".
 
+X = 1, 2, 3 ; X[1] = 4
+X nie jest tablicą. Aby móc wykonać X[1] = 4 należałoby dodać nawiasy kwadratowe: X = [1, 2, 3]
+
+X = [1, 2, 3] ; X[3] = 4
+Próba przypisania wartości do nieistniejącego elementu. X ma trzy wartości więc ostatni indeks to dwa. Indeks trzy nie istnieje w X.
+
+X = "abc" ; X.append("d")
+Append() dodaje elementy do listy. X jest stringiem, a nie listą.
+
+L = list(map(pow, range(8)))
+Brakującym argumentem są wartości, które mają być podniesione do potęg w zakresie range(8).
