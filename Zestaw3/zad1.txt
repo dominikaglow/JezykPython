@@ -3,7 +3,7 @@ if (x > y):
     result = x;
 else:
     result = y;
-Podany kod nie jest poprawny składniowo, poniewaz w Pythonie nie korzysta sie z srednikow na koncu linii kodu.
+Podany kod jest poprawny składniowo.
 
 
 for i in "axby": if ord(i) < 100: print (i)
