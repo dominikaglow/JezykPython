@@ -31,10 +31,10 @@ def findAll(list1, list2):
 
 l1 = [4, 1, 2, 3, 4, 5, 6, 7]
 l2 = [12, 5, 4, 1, 2, 6, 2, 4, 50, 6, 72]
-print(findSame(l1, l2))
-print(findAll(l1, l2))
+print("Wspolne elementy: ", findSame(l1, l2))
+print("Wszystkie elementy bez powtorzen: ", findAll(l1, l2))
 
 l3 = ("Python", "język", "programowania", "wysokiego", "poziomu", "ogólnego", "przeznaczenia", "o", "rozbudowanym", "pakiecie", "bibliotek", "standardowych")
 l4 = ("Python", "ogólnego", "o", "skladnia", "rozbudowanym", "wersja", "testowa", "standardowych")
-print(findSame(l3, l4))
-print(findAll(l3, l4))
+print("Wspolne elementy: ", findSame(l3, l4))
+print("Wszystkie elementy bez powtorzen: ", findAll(l3, l4))
