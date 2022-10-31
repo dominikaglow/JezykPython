@@ -13,8 +13,6 @@ def roman2int(num):
             i += 1
     print(num + " -> ", result)
 
-print("Podaj liczbe w systemie rzymskim: ")
-num = input()
-print("Wprowadzona liczba: " + num)
-
-roman2int(num)
+roman2int("LVIII")
+roman2int("MCMXCIV")
+roman2int("MMIV")
