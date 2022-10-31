@@ -7,7 +7,7 @@ Podany kod jest poprawny składniowo.
 
 
 for i in "axby": if ord(i) < 100: print (i)
-Podany kod nie jest poprawny. Funkcja print() powinna znajdowac się przed warunkiem. Co więcej brakuje działania, gdy warunek nie zostanie spełniony.
+Podany kod nie jest poprawny. Instrukcja warunkowa(if) musi znajdowac sie w osobnej linii.
 
 for i in "axby": print (ord(i) if ord(i) < 100 else i)
 Podany kod jest poprawny.
