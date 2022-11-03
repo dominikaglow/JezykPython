@@ -7,7 +7,7 @@ def odwracanieIter(L, left, right):
             temp = L[i]
             L[i] = L[j]
             L[j] = temp
-            i  += 1
+            i += 1
             j -= 1
         return L
     else:
@@ -43,6 +43,6 @@ print("odwracanieRek(L2, 0, 5): ", odwracanieRek(L2, 0, 5))
 print("\n")
 L3 = ["BMW", "Toyota", "Mercedes", "Lexus", "Audi", "Ford", "Volvo"]
 print("Lista L3: ", L3)
-print("odwracanieIter(L3, 0, 4): ", odwracanieIter(L3, 3, 6))
+print("odwracanieIter(L3, 3, 6): ", odwracanieIter(L3, 3, 6))
 odwracanieIter(L3, 3, 6)
-print("odwracanieRek(L3, 0, 4): ", odwracanieRek(L3, 3, 6))
+print("odwracanieRek(L3, 3, 6): ", odwracanieRek(L3, 3, 6))
