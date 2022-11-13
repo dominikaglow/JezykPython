@@ -21,7 +21,7 @@ def add_frac(frac1, frac2):
     mian = frac1[1] * frac2[1]
     licz = frac1[0] * frac2[1] + frac2[0] * frac1[1]
     gcdNum = gcd(licz, mian)
-    res = [int(licz/gcdNum), int(mian/gcdNum)]
+    res = [licz//gcdNum, mian//gcdNum]
     return res
 
 def sub_frac(frac1, frac2):
@@ -35,7 +35,7 @@ def sub_frac(frac1, frac2):
     mian = frac1[1] * frac2[1]
     licz = frac1[0] * frac2[1] - frac2[0] * frac1[1]
     gcdNum = abs(gcd(licz, mian))
-    res = [int(licz / gcdNum), int(mian / gcdNum)]
+    res = [licz//gcdNum, mian//gcdNum]
     return res
 
 def mul_frac(frac1, frac2):
@@ -49,7 +49,7 @@ def mul_frac(frac1, frac2):
     mian = frac1[1] * frac2[1]
     licz = frac1[0] * frac2[0]
     gcdNum = abs(gcd(licz, mian))
-    res = [int(licz / gcdNum), int(mian / gcdNum)]
+    res = [licz//gcdNum, mian//gcdNum]
     return res
 
 
@@ -64,7 +64,7 @@ def div_frac(frac1, frac2):
     mian = frac1[1] * frac2[0]
     licz = frac1[0] * frac2[1]
     gcdNum = abs(gcd(licz, mian))
-    res = [int(licz / gcdNum), int(mian / gcdNum)]
+    res = [licz//gcdNum, mian//gcdNum]
 
     if res[0] < 0 and res[1] < 0:
         res[0] = abs(res[0])
@@ -79,8 +79,8 @@ def is_positive(frac):
 
 def is_zero(frac):
     gcdNum = abs(gcd(frac[0], frac[1]))
-    frac[0] = int(frac[0] / gcdNum)
-    frac[1] = int(frac[1] / gcdNum)
+    frac[0] = frac[0]//gcdNum
+    frac[1] = frac[1]//gcdNum
 
     if frac[0] == 0:
         return True
